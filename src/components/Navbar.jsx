@@ -15,8 +15,9 @@ const Navbar = () => {
         justifyContent: 'flex-end', // 버튼을 오른쪽으로 몰기
         gap: '10px',
         backgroundColor: '#f2f2f2',
-        padding: '10px',
-        zIndex: 9999,        // 다른 요소 위에 표시
+        paddingTop: '10px',
+        paddingBottom: '10px',
+        zIndex: 10,        // 다른 요소 위에 표시
         borderBottom: '1px solid #ddd'
       }}
     >
